@@ -116,4 +116,4 @@ Modelin gerçek dünya performansını ölçmek amacıyla cep telefonu ile 5 far
 | **Best Performance** | `Accuracy: %70.25, F1-Score: 0.6767, Mean IoU: 0.3243` |
 | **Inference Time** | `8.09 ms / görüntü` |
 | **Deployment Technology** | Gradio Web Arayüzü |
-| **Repository** | `https://github.com/ahmet/cnn-nesne-tespiti-odevi` |
+| **Repository** | `https://github.com/AhmetFurkanTAsDEMIR/cnn-nesne-tespiti-odevi` |

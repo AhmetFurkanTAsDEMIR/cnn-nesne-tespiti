@@ -176,7 +176,7 @@ Modelin gerçek dünya performansını ölçmek amacıyla cep telefonu ile 5 far
 | **Best Performance** | `Accuracy: %{state['test_acc']*100:.2f}, F1-Score: {state['test_f1']:.4f}, Mean IoU: {state['mean_iou']:.4f}` |
 | **Inference Time** | `{state['infer_ms']:.2f} ms / görüntü` |
 | **Deployment Technology** | Gradio Web Arayüzü |
-| **Repository** | `https://github.com/ahmet/cnn-nesne-tespiti-odevi` |
+| **Repository** | `https://github.com/AhmetFurkanTAsDEMIR/cnn-nesne-tespiti-odevi` |
 """
     with open(REPORT_FILE, "w", encoding="utf-8") as f:
         f.write(md_content)

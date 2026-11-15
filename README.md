@@ -2,7 +2,7 @@
 
 ---
 
-## 1. Ödevin Amacı
+## 1. Projenin Amacı
 Bu çalışmanın amacı, açık kaynaklı **Pascal VOC 2012** veri setini kullanarak çok sınıflı bir **Nesne Tespiti ve Konumlandırma (Object Detection & Localization)** problemi için uçtan uca bir Evrişimli Sinir Ağı (**CNN**) modeli geliştirmek, modelin başarımını çeşitli sınıflandırma ve nesne tespiti metrikleriyle değerlendirmek, eğitilen modeli **Gradio** tabanlı interaktif bir web uygulamasına dönüştürmek ve telefonla çekilen gerçek dünya fotoğrafları üzerinde test etmektir.
 
 ---
@@ -116,4 +116,4 @@ Modelin gerçek dünya performansını ölçmek amacıyla cep telefonu ile 5 far
 | **Best Performance** | `Accuracy: %70.25, F1-Score: 0.6767, Mean IoU: 0.3243` |
 | **Inference Time** | `8.09 ms / görüntü` |
 | **Deployment Technology** | Gradio Web Arayüzü |
-| **Repository** | `https://github.com/AhmetFurkanTAsDEMIR/cnn-nesne-tespiti-odevi` |
+| **Repository** | `https://github.com/AhmetFurkanTAsDEMIR/cnn-nesne-tespiti` |

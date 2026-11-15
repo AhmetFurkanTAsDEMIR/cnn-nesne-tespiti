@@ -66,7 +66,7 @@ def generate_markdown_report(state=None):
 
 ---
 
-## 1. Ödevin Amacı
+## 1. Projenin Amacı
 Bu çalışmanın amacı, açık kaynaklı **Pascal VOC 2012** veri setini kullanarak çok sınıflı bir **Nesne Tespiti ve Konumlandırma (Object Detection & Localization)** problemi için uçtan uca bir Evrişimli Sinir Ağı (**CNN**) modeli geliştirmek, modelin başarımını çeşitli sınıflandırma ve nesne tespiti metrikleriyle değerlendirmek, eğitilen modeli **Gradio** tabanlı interaktif bir web uygulamasına dönüştürmek ve telefonla çekilen gerçek dünya fotoğrafları üzerinde test etmektir.
 
 ---
@@ -176,7 +176,7 @@ Modelin gerçek dünya performansını ölçmek amacıyla cep telefonu ile 5 far
 | **Best Performance** | `Accuracy: %{state['test_acc']*100:.2f}, F1-Score: {state['test_f1']:.4f}, Mean IoU: {state['mean_iou']:.4f}` |
 | **Inference Time** | `{state['infer_ms']:.2f} ms / görüntü` |
 | **Deployment Technology** | Gradio Web Arayüzü |
-| **Repository** | `https://github.com/AhmetFurkanTAsDEMIR/cnn-nesne-tespiti-odevi` |
+| **Repository** | `https://github.com/AhmetFurkanTAsDEMIR/cnn-nesne-tespiti` |
 """
     with open(REPORT_FILE, "w", encoding="utf-8") as f:
         f.write(md_content)

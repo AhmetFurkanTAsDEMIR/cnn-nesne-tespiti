@@ -129,7 +129,7 @@ def evaluate_5_drag_drop_photos(img1, lbl1, img2, lbl2, img3, lbl3, img4, lbl4, 
 # ==============================================================================
 # GRADIO ARAYÜZ TASARIMI
 # ==============================================================================
-with gr.Blocks(title="CNN Nesne Tespiti - Ödev Uygulaması") as app:
+with gr.Blocks(title="CNN Nesne Tespiti Uygulaması") as app:
     gr.Markdown("# TensorFlow CNN ile Nesne Tespiti Uygulaması (Pascal VOC 2012)")
     gr.Markdown("Desteklenen Sınıflar: **Araba (`car`), Kedi (`cat`), Köpek (`dog`), Motosiklet (`motorbike`), Otobüs (`bus`), İnsan (`person`)**")
 

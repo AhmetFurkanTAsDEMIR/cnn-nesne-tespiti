@@ -1,0 +1,10 @@
+# Büyük veri seti ve geçici dosyaları GitHub'a yükleme
+VOC2012/
+VOCdevkit/
+split_data.npz
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.gradio/

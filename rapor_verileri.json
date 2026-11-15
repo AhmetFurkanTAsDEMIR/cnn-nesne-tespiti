@@ -1,0 +1,55 @@
+{
+  "total_images": 4000,
+  "train_count": 3200,
+  "val_count": 400,
+  "test_count": 400,
+  "train_time_sec": 845.4,
+  "mean_iou": 0.3242565638376982,
+  "test_acc": 0.7025,
+  "test_prec": 0.6896026625704046,
+  "test_rec": 0.7025,
+  "test_f1": 0.6767352066135721,
+  "infer_ms": 8.091863989830017,
+  "five_photos": [
+    {
+      "no": 1,
+      "true": "dog",
+      "pred": "dog",
+      "conf": 84.9,
+      "ms": 5140.7,
+      "status": "BAŞARILI"
+    },
+    {
+      "no": 2,
+      "true": "bus",
+      "pred": "bus",
+      "conf": 42.9,
+      "ms": 4872.0,
+      "status": "BAŞARILI"
+    },
+    {
+      "no": 3,
+      "true": "person",
+      "pred": "person",
+      "conf": 80.8,
+      "ms": 4816.3,
+      "status": "BAŞARILI"
+    },
+    {
+      "no": 4,
+      "true": "motorbike",
+      "pred": "motorbike",
+      "conf": 74.9,
+      "ms": 4823.6,
+      "status": "BAŞARILI"
+    },
+    {
+      "no": 5,
+      "true": "car",
+      "pred": "car",
+      "conf": 76.1,
+      "ms": 5004.0,
+      "status": "BAŞARILI"
+    }
+  ]
+}

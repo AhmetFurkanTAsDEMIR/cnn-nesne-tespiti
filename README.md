@@ -21,6 +21,7 @@ Model, **Pascal VOC 2012** veri setindeki 6 temel sınıf üzerinde eğitilmişt
 ├── egitim.py                  # Modeli eğitir, modeli (.keras) ve eğitim grafiklerini kaydeder
 ├── test_degerlendirme.py      # %10 Test kümesi üzerinde IoU, Accuracy, Precision, Recall, F1 ve süre ölçer
 ├── uygulama_app.py            # Gradio tabanlı sürükle-bırak web arayüzü (Tekli ve 5'li fotoğraf testi)
+├── PROJE_RAPORU.md            # Detaylı proje raporu (Markdown)
 ├── PROJE_RAPORU.docx          # Detaylı proje raporu (Word belgesi)
 └── requirements.txt           # Gerekli Python kütüphaneleri
 ```
@@ -59,4 +60,4 @@ Uygulama çalıştırıldığında tarayıcıda `http://127.0.0.1:7860` adresind
 ---
 
 ## Proje Raporu
-Projenin detaylı mimari açıklamaları, hiperparametre seçim gerekçeleri, eğitim/test grafikleri ve gerçek dünya fotoğraflarıyla yapılan değerlendirme sonuçları depo içerisindeki **[PROJE_RAPORU.docx](PROJE_RAPORU.docx)** dosyasında yer almaktadır.
+Projenin detaylı mimari açıklamaları, hiperparametre seçim gerekçeleri, eğitim/test grafikleri ve gerçek dünya fotoğraflarıyla yapılan değerlendirme sonuçları depo içerisindeki **[PROJE_RAPORU.md](PROJE_RAPORU.md)** ve **[PROJE_RAPORU.docx](PROJE_RAPORU.docx)** dosyalarında yer almaktadır.
